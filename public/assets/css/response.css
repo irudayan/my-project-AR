@@ -1,0 +1,33 @@
+
+/* 320px480px: Mobile devices */
+
+
+
+/* 481px768px: iPads, Tablets */
+
+
+/*769px1024px: Small screens, laptops*/
+
+
+/* 1025px1200px: Desktops, large screens*/
+
+@media(min-width: 720px) {
+	.rsignout{
+	display: none !important;
+	}
+	.rsignin{
+		display: none !important;
+	}
+}
+@media(max-width: 720px) {
+	.tsignout{
+	display: none !important;
+	}
+	.tsignin{
+		display: none !important;
+	}
+}
+
+
+
+/*1201px and more Extra large screens, TV */
